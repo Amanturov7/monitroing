@@ -1,0 +1,116 @@
+/* KibanaDashboard.css */
+
+.dashboard-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .region-list-container {
+    text-align: center;
+  }
+  
+  .region-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .region-item {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  
+  .region-item:hover {
+    background-color: #90b2df;
+    color: #fff;
+  }
+  
+  .selected-region-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .selected-region {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+    height: 80%;
+  }
+  
+  .selected-region h2 {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dashboard-block {
+    border: none;
+    width: 800px; /* Изменяем ширину блока на 800px, чтобы вмещать 2 блока в одной строке */
+    height: 500px; /* Используем автоматическую высоту, чтобы блок занимал ровно столько места, сколько ему нужно */
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    background-color: #f8f8f8;
+  }
+  
+  .hydro-button {
+    text-align: center;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .hydro-button:hover {
+    text-decoration: underline;
+  }
+  
+
+  .buttonHydropost{
+    text-align: center;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    color: #000000;
+
+  }
+  .main-button {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+
+  }
+  
+  .main-button:hover {
+    background-color: #90b2df;
+    color: white;
+  }
+  
+  
+  

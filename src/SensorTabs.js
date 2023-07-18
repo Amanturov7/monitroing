@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import {
   faBatteryFull,
   faBatteryHalf,
@@ -13,8 +14,8 @@ import {
   faToggleOff,
   faTriangleExclamation,
 } from '@fortawesome/free-solid-svg-icons';
-import 'react-tabs/style/react-tabs.css';
 import './App.css';
+import 'react-tabs/style/react-tabs.css';
 
 const sensorsData = [
   { name: 'Датчик 1', status: 'Активен', lastUpdated: '2023-07-12 10:30', battery: 40, signal: 90 },
@@ -96,6 +97,7 @@ function SensorTabs() {
   }, []);
 
   return (
+    <div className="sensor-tabs-container">
     <Tabs>
       <TabList>
         <Tab>Активные датчики</Tab>
@@ -198,6 +200,8 @@ function SensorTabs() {
         </TabPanel>
       </div>
     </Tabs>
+    <Link to="/">Вернуться на главную</Link>
+    </div>
   );
 }
 
