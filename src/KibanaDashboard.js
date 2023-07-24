@@ -44,6 +44,23 @@ function KibanaDashboard() {
     }
   };
 
+  // const [arraySensors, setArraySensors] = useState([])
+
+  // const fetchedSensors = fetch(`http//localhost:8080/api/dashboard/sensors`).then((response =>  setArraySensors(response)))
+
+  // const changeFilterKubana = (url) => {
+  //   return url;
+  // }
+
+
+
+  // arraySensors.map(it -> it.url = changeFilterKubana(url) )
+
+  // const url = `http://10.22.22.21:5601/app/dashboards#/view/82970e70-29f8-11ee-851e-230344ead74c?_g=()&_a=(columns:!(),filters:!(),index:'22bc06c0-2167-11ee-9292-4514b0406ee9',interval:auto,query:(language:kuery,query:'hydro_post.keyword :"Hydropost 1" '),sort:!(!(date,desc)))`
+
+
+
+
   return (
     <div className="dashboard-container">
       <div className="region-list-container">

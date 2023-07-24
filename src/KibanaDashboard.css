@@ -63,8 +63,8 @@
     width: 800px; /* Изменяем ширину блока на 800px, чтобы вмещать 2 блока в одной строке */
     height: 500px; /* Используем автоматическую высоту, чтобы блок занимал ровно столько места, сколько ему нужно */
     margin: 10px;
-    border-radius: 4px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     position: relative;
     background-color: #f8f8f8;
