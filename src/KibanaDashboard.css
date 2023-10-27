@@ -58,9 +58,14 @@
     justify-content: center;
   }
   
+  .return{
+
+margin-left: 500px;
+
+  }
   .dashboard-block {
     border: none;
-    width: 800px; /* Изменяем ширину блока на 800px, чтобы вмещать 2 блока в одной строке */
+    width: 1200px; /* Изменяем ширину блока на 800px, чтобы вмещать 2 блока в одной строке */
     height: 500px; /* Используем автоматическую высоту, чтобы блок занимал ровно столько места, сколько ему нужно */
     margin: 10px;
     border-radius: 20px;
@@ -160,3 +165,32 @@
   
   
   
+
+/* SystemTree.css */
+
+/* Убираем маркеры у элементов списка */
+.system-tree {
+  list-style: none;
+  padding: 0;
+}
+
+/* Добавляем стили к каждому элементу списка */
+.system-tree li {
+  margin-bottom: 10px;
+  padding-left: 20px; /* Отступ слева для каждого элемента списка */
+  position: relative;
+  list-style: none;
+}
+
+/* Стили для текста (названия систем) внутри элемента списка */
+.system-tree a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.system-tree a:hover {
+  color: #007bff;
+}
+
+/* Другие стили здесь */

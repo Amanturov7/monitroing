@@ -1,0 +1,92 @@
+[
+	{
+		"id": 14,
+		"display_name": "Чуйский РУВХ",
+		"parent_system_id": null,
+		"facility_tree": null,
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 5,
+		"can_have_hps": false
+	},
+	{
+		"id": 4,
+		"display_name": "Cистема Кегети",
+		"parent_system_id": 3,
+		"facility_tree": "img/sys_schemas/kegeti.png",
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 4,
+		"can_have_hps": true
+	},
+	{
+		"id": 8,
+		"display_name": "Демо Система",
+		"parent_system_id": 7,
+		"facility_tree": "img/sys_schemas/shamshy.png",
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 4,
+		"can_have_hps": true
+	},
+	{
+		"id": 3,
+		"display_name": "Кегетинский гидроучасток",
+		"parent_system_id": 14,
+		"facility_tree": null,
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 4,
+		"can_have_hps": false
+	},
+	{
+		"id": 13,
+		"display_name": "Система ВБЧК",
+		"parent_system_id": 11,
+		"facility_tree": "img/sys_schemas/vbchk.png",
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 5,
+		"can_have_hps": true
+	},
+	{
+		"id": 15,
+		"display_name": "Система Кегети - Тест",
+		"parent_system_id": 3,
+		"facility_tree": "img/sys_schemas/kegeti.png",
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 4,
+		"can_have_hps": true
+	},
+	{
+		"id": 10,
+		"display_name": "Система Кызыл-Суу",
+		"parent_system_id": 7,
+		"facility_tree": "img/sys_schemas/kyzyl_su.png",
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 4,
+		"can_have_hps": true
+	},
+	{
+		"id": 12,
+		"display_name": "Система ОЧК",
+		"parent_system_id": 11,
+		"facility_tree": "img/sys_schemas/ochk.png",
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 5,
+		"can_have_hps": true
+	},
+	{
+		"id": 11,
+		"display_name": "Чуйский гидроучасток ",
+		"parent_system_id": 14,
+		"facility_tree": null,
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 5,
+		"can_have_hps": false
+	},
+	{
+		"id": 7,
+		"display_name": "Шамшынский гидроучасток",
+		"parent_system_id": 14,
+		"facility_tree": null,
+		"timezone": "Asia/Bishkek",
+		"resp_user_id": 4,
+		"can_have_hps": false
+	}
+]

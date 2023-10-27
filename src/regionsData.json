@@ -34,7 +34,26 @@
               },
               {
                 "title": "Гидропост 2",
-                "url": "http://10.22.22.21:5601/app/dashboards#/view/cde75150-2160-11ee-9292-4514b0406ee9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))&show-time-filter=true"
+                "url": "http://10.22.22.21:5601/app/dashboards#/view/cde75150-2160-11ee-9292-4514b0406ee9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))&show-time-filter=true",
+                "sensor" :[
+                  {
+                      "imei": 861698065023748,
+                      "sensor_name": "23/K003",
+                      "hpid": 14,
+                      "hp_name": "№ 3",
+                      "mqtt_topic": null,
+                      "create_date": 1694080424,
+                      "power": 80,
+                      "signal": 19,
+                      "temp": "19.5",
+                      "last_transmission": 1698133696,
+                      "last_measure": 1698133503,
+                      "timezone": null,
+                      "model_id": 1,
+                      "model_name": "USN 5.0 (Vega)"
+                    
+                }
+              ]
               }
             ]
           },
@@ -44,11 +63,49 @@
             "hydroposts": [
               {
                 "title": "Гидропост 1",
-                "url": "http://10.22.22.21:5601/app/dashboards#/view/cde75150-2160-11ee-9292-4514b0406ee9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))&show-time-filter=true"
+                "url": "http://10.22.22.21:5601/app/dashboards#/view/cde75150-2160-11ee-9292-4514b0406ee9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))&show-time-filter=true",
+                "sensor" :[
+                  {
+                      "imei": 861698065023748,
+                      "sensor_name": "23/K003",
+                      "hpid": 14,
+                      "hp_name": "№ 3",
+                      "mqtt_topic": null,
+                      "create_date": 1694080424,
+                      "power": 80,
+                      "signal": 19,
+                      "temp": "19.5",
+                      "last_transmission": 1698133696,
+                      "last_measure": 1698133503,
+                      "timezone": null,
+                      "model_id": 1,
+                      "model_name": "USN 5.0 (Vega)"
+                    
+                }
+              ]
               },
               {
                 "title": "Гидропост 2",
-                "url": "http://10.22.22.21:5601/app/dashboards#/view/cde75150-2160-11ee-9292-4514b0406ee9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))&show-time-filter=true"
+                "url": "http://10.22.22.21:5601/app/dashboards#/view/cde75150-2160-11ee-9292-4514b0406ee9?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-30d%2Cto%3Anow))&show-time-filter=true",
+                "sensor" :[
+                  {
+                      "imei": 861698065023748,
+                      "sensor_name": "23/K003",
+                      "hpid": 14,
+                      "hp_name": "№ 3",
+                      "mqtt_topic": null,
+                      "create_date": 1694080424,
+                      "power": 80,
+                      "signal": 19,
+                      "temp": "19.5",
+                      "last_transmission": 1698133696,
+                      "last_measure": 1698133503,
+                      "timezone": null,
+                      "model_id": 1,
+                      "model_name": "USN 5.0 (Vega)"
+                    
+                }
+              ]
               }
             ]
           }

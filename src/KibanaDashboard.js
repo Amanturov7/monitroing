@@ -52,7 +52,7 @@ function KibanaDashboard() {
 
   const handleBackClick = () => {
     if (currentLevel === 'hydropost') {
-      setCurrentLevel('system');
+      setCurrentLevel('dashboard');
     } else if (currentLevel === 'dashboard') {
       setSelectedSystem(null);
       setCurrentLevel('system');
@@ -125,6 +125,8 @@ function getStatusIcon(status) {
             </li>
           ))}
         </ul>
+        <Link to="/">Вернуться на главную</Link>
+
         {currentLevel === 'region' ? (
           <div></div>
         ) : (
@@ -134,6 +136,7 @@ function getStatusIcon(status) {
                 <button onClick={handleBackClick} className="hydro-button">
                   <h2>{selectedRegion} район</h2>
                 </button>
+                
                 <div className="dashboard-columns">
                   {regionsData[selectedRegion].map((hydro, index) => (
                     <div key={index} className="dashboard-block">
@@ -142,7 +145,7 @@ function getStatusIcon(status) {
                           {hydro.name}
                         </button>
                       </div>
-                      <iframe title={hydro.name} src={hydro.url} height="500" width="830" />
+                      <iframe title={hydro.name} src={hydro.url} height="500" width="1200" />
                     </div>
                   ))}
                 </div>
@@ -150,8 +153,11 @@ function getStatusIcon(status) {
             )}
             {currentLevel === 'system' && (
               <div>
-                <button onClick={handleBackClick} className="hydro-button">
+                <button  className="hydro-button">
                   <h2>{selectedHydro.name}</h2>
+                </button>
+                <button onClick={handleBackClick} className="hydro-button">
+                  <h5 className="return"> Вернуться назад</h5>
                 </button>
                 <div className="dashboard-columns">
                   {selectedHydro.systems.map((system, index) => (
@@ -161,7 +167,7 @@ function getStatusIcon(status) {
                           {system.title}
                         </button>
                       </div>
-                      <iframe title={system.title} src={system.url} height="400" width="830" />
+                      <iframe title={system.title} src={system.url} height="400" width="1200" />
                     </div>
                   ))}
                 </div>
@@ -169,20 +175,23 @@ function getStatusIcon(status) {
             )}
             {currentLevel === 'dashboard' && (
               <div>
-                <button onClick={handleBackClick} className="hydro-button">
+                <button className="hydro-button">
                   <h2>{selectedSystem.title}</h2>
+                </button>
+                <button onClick={handleBackClick} className="hydro-button">
+                  <h5 className="return"> Вернуться назад</h5>
                 </button>
                 <div className="dashboard-columns">
                   {selectedSystem.hydroposts.map((hydropost, index) => (
                     <div key={index} className="dashboard-block">
                           <div>
                         <button onClick={() => handleHydropostClick(hydropost)} className="hydro-button">
-                          {hydropost.title}
+                       {hydropost.title} 
                         </button>
                       </div>
 
                       {/* <div className="buttonHydropost">{hydropost.title}</div> */}
-                      <iframe title={hydropost.title} src={hydropost.url} height="400" width="830" />
+                      <iframe title={hydropost.title} src={hydropost.url} height="400" width="1200" />
                     </div>
                   ))}
                 </div>
@@ -191,9 +200,12 @@ function getStatusIcon(status) {
 
             {currentLevel === 'hydropost' && (
               <div>
-              <button onClick={handleBackClick} className="hydro-button">
+              <button  className="hydro-button">
                 <h2>{selectedHydropost.title}</h2>
               </button>
+              <button onClick={handleBackClick} className="hydro-button">
+                  <h5 className="return"> Вернуться назад</h5>
+                </button>
               <div className="dashboard-columns">
                 {selectedHydropost.sensor.map((sensor, index) => (
                   <div key={index} className="sensor-block1">
